@@ -1,0 +1,259 @@
+
+.recommandationContainer {
+
+   background-repeat: none;
+   background-size: 100% 100% ;
+   height: 47rem;
+   padding-top: 5%;
+  
+  }
+  .recommandationContainer h1 {
+    display: flex;
+    justify-content: center;
+    color:rgba(0, 0, 0, 0.741) ;
+    font-size: 33px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 3%;
+  }
+  .recommandationContainer h1:hover  {
+   color: rgba(18, 5, 71, 0.748)  ; 
+   cursor: pointer;
+  }
+  .recommandationContainer h5 {
+    display: flex;
+    justify-content: center;
+    color: rgba(16, 5, 65, 0.873);
+    padding-top: 1%;
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .recommandationContainer h5:hover  {
+    color: rgba(90, 3, 220, 0.749);
+    cursor: pointer;  
+   }
+  .recommandationContainerCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px; 
+    padding: 2% 0 0 6%;
+
+   }
+.recommandationCard{
+    background-color:transparent !important;
+    width: 20rem !important;
+    height: 14rem;
+    padding: 5%;
+    box-shadow: 1px 2px 4px 2px rgba(144, 139, 212, 0.91)!important;
+    border: 1px solid rgb(207, 180, 222) !important;
+}
+
+/* hover part */
+.recommGrid :hover{
+  background-color:rgb(90, 3, 220) !important;
+}
+
+.recommandationCard .text-hover {
+  display: none;  
+}
+
+.recommandationCard:hover .text-initial {
+  display: none; 
+}
+
+.recommandationCard:hover .text-hover{
+  display: block;
+  border: none !important;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+.recommandationCard:hover .CompanyName{
+  color: white !important; 
+}
+
+.recommandationCard:hover .Companybtnn{
+  background-color: white!important;
+  color: rgb(0, 0, 0) !important;
+  margin-top: 3%;
+}
+
+.btnRecomm{
+  color: white !important;
+  background-color: rgba(28, 1, 66, 0.838) !important;
+  padding: 10px !important;
+  display: flex;
+  margin:4% 0 0 28% !important;
+  width: 35%;
+  cursor: pointer;
+ }
+
+.recommandationCard h6{
+font-size: 17px;
+font-weight: 500;
+color: rgba(7, 5, 96, 0.873);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recommandationCard p   {
+  font-size: 13.2px;
+  color: rgba(6, 12, 55, 0.749);;
+  font-weight: 100;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .formClasss{
+    background-color:rgba(255, 255, 255, 0.963) ;
+    width:35% ;
+    height:43rem;
+    margin:2% 10% 5% 36% ;
+    padding:5%;
+    border-radius: 1%;
+  }
+
+ .formClasss p {
+  font-size: 17px;
+  padding-bottom: 3%;
+  color: rgba(9, 9, 9, 0.805);
+  font-weight: 600;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .btnRecommandation{
+  color: white !important;
+  background-color: #7F27FF !important;
+  padding: 10px !important;
+  display: flex;
+  border: none  !important;
+  margin:5% 0 0 30% !important;
+  width: 40%;
+  cursor: pointer;
+ }
+
+.formFooter{
+  display: flex;
+  flex-direction: column ;
+}
+.back{
+  padding: 3%;
+  margin-left: -10%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 13px;
+}
+.back:hover{
+ color: rgb(15, 51, 104) ;
+ text-decoration: underline !important;
+ font-weight: 600  ;
+}
+.Companybtnn{
+  width:45%;
+  margin:5% 0 0 30%;
+  background-color: rgba(3, 3, 75, 0.929) !important;
+  color: white !important;
+}
+.text-animation{
+  display: inline-block;
+  font-weight:100;
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: revealText 2s steps(30) forwards;
+}
+@keyframes revealText {
+  from {
+    width: 0;
+  }
+  to {
+    width: 67%;
+  }
+}
+
+@media screen and (max-width: 1008px) {
+  .text-animation {
+    font-size: 16px;
+    margin-left: -9% !important;
+  }
+  .imageStyle{
+    margin-left: -47% !important;
+  }
+  .recommandationContainer{
+    margin-top: 3% !important;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .text-animation {
+    margin-left: -10% !important;
+  }
+  .imageStyle{
+    margin-top: -27% !important;
+    margin-left: 20% !important;
+    width: 60%;
+    height:400px;
+  }
+
+  .recommandationContainer{
+    margin-top: 10% !important;
+  }
+}
+
+
+
+
+.geminiMessage {
+  width: 92% ;
+  background-color: transparent !important;
+  border: 2px solid rgba(19, 7, 40, 0.763);
+  height: 43rem;
+  color: white !important;
+  margin: 0% 0 0 5%;
+  padding: 2%;
+  box-shadow: 1px 2px 4px 2px rgba(232, 231, 238, 0.91)!important;  
+}
+.geminiMessage p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white !important;
+  font-weight: 100 !important;
+  font-size: 13.5px;
+  margin-top: -5%;
+}
+
+
+
+.geminiMessage img{
+  width: 5% !important;
+  border-radius: 5%;
+}
+.strategyModal h5{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.908);
+  font-family: Segoe UI,Arial,sans-serif;
+  font-weight: 700;
+  margin-bottom: 4%;
+  }
+
+.strategyModal h6{
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.838);
+  font-family: Segoe UI,Arial,sans-serif;
+  font-weight: 400;
+  margin: 2% 0 2% 0 ;
+  }
+
+.strategyModal li{
+font-size: 14px;
+color: rgb(0, 0, 0);
+font-family: Segoe UI,Arial,sans-serif;
+font-weight: 600;
+margin-bottom: -3%;
+}
+
+.strategyModal span:hover{
+  color:#2739ffbb;
+  cursor: pointer;
+}
+.strategyModal p{
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.812);
+  font-family: Segoe UI,Arial,sans-serif;
+  font-weight: 400;
+  margin-bottom: 4%;
+  }
+

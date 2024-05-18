@@ -1,0 +1,22 @@
+h4{
+    color: aliceblue;
+}
+h6{
+    color: rgba(149, 148, 148, 0.741);
+}
+
+.txt{
+font-size: 14px;
+font-weight: 400;
+}
+.alertClass{
+ margin: 7%;
+  font-size: 14px;
+  font-weight: 500!important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.SigninForm{
+    margin:55% 0 0 -40%;
+    width :200%
+}

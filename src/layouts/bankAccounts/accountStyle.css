@@ -1,0 +1,62 @@
+.gridButton{
+    position: relative;
+    display: flex !important;
+    gap: 2%;
+
+
+}
+.actionButtonn {
+    color: white !important; 
+    cursor: pointer;
+    min-width: 2px !important;
+    width: 10px !important;
+}
+.roundedAdd{
+    position: absolute;
+    background-color: rgb(0, 4, 24) !important;
+    color: white !important;
+    margin-left: 83% !important;
+}
+.add{
+    background-color: rgb(22, 1, 41) !important;
+    color: white !important;
+    width: 10%;
+}
+.cancel{
+    background-color: rgb(195, 7, 7) !important;
+    color: white !important;
+    width: 10%;
+}
+.gridbtn{
+    display: flex !important;
+    gap: 1%  ;
+    justify-content: center;
+    color: rgba(45, 43, 43, 0.911);
+}
+
+.errorForm {
+    display: flex;
+    flex-direction: column !important;
+    grid-template-columns: 1fr;
+    gap: 15%;
+    background-color: white;
+    width: 23%;
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 20% 20% 40%;
+    box-shadow: 1px 1px 5px 2px rgba(46, 44, 44, 0.788) !important;
+  }
+  .errorForm button{
+   width: 18%;
+   height: 2rem;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 13px;
+  }
+  .errorForm p{
+      color: black;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 100;
+      font-size: 13px;
+      align-items: center;
+  }

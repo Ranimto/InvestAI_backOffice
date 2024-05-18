@@ -1,0 +1,9 @@
+.stockSellForm{
+    background-color:rgba(255, 255, 255, 0.941) ;
+    box-shadow: 1px 2px 4px 1px rgba(37, 37, 38, 0.485)!important;
+    width:35% !important;
+    height:38rem !important;
+    margin:6% 10% 5% 32% ;
+    padding:2% 3% 0 2%;
+  
+  }

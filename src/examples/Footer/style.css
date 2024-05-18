@@ -1,0 +1,13 @@
+.footer{
+    border: 2px solid rgba(217, 206, 206, 0.108); /* Bordure de 2 pixels solide noire */
+    padding: 30px; /* Espace intérieur de 10 pixels */
+    padding-left: 50%;
+    background-color: rgba(178, 194, 220, 0.192); /* Couleur de fond grise claire */
+    width:100%; /* Largeur de la boîte */
+    height: 30%; 
+    border-radius: 4px ;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
